@@ -19,11 +19,11 @@ const elementMappings = new Map([
   ["Course Title", ".projectTitle"],
   ["Start Button", "#pa_602f99d67dab9_p15766ba6ccd-button__text"],
   ["Go Button", ".button=Go"],
-  ["Question Text", ".question__header__text"],
+  ["Question Header", ".question__header__text"],
   ["Disabled Submit button", ".fake_save_button--disabled"],
-  ["Answer Option", "#pa_602f99d685e21_p157047c2abc-imgCard--answer-1"],
+  ["Image Answer Option", "#pa_602f99d685e21_p157047c2abc-imgCard--answer-1"],
   ["Enabled Submit button", ".save_button"],
-  ["Question Header", ".question__header__text*=colleague"],
+  ["Text Answer Option", ".textCard.answer"],
 ]);
 
 const getElementMapping = (expectedMapping: string): string => {

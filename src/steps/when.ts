@@ -10,6 +10,19 @@ When(/^I proceed to the "([^"]*)?"$/, (mappingName: string) => {
     const goButton = findElement("Go Button");
     browser.pause(1000);
     goButton.click();
+  } else if (mappingName === "Second Question") {
+    const startButton = findElement("Start Button");
+    browser.pause(1000);
+    startButton.click();
+    const goButton = findElement("Go Button");
+    browser.pause(1000);
+    goButton.click();
+    const firstQAnswer = findElement("Image Answer Option");
+    browser.pause(1000);
+    firstQAnswer.click();
+    const firstQSubmit = findElement("Enabled Submit button");
+    browser.pause(1000);
+    firstQSubmit.click();
   } else {
     throw new Error(`Not yet implemented "${mappingName}"`);
   }
