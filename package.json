@@ -1,0 +1,35 @@
+{
+  "name": "elucidat-tech-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "@wdio/allure-reporter": "^6.3.0",
+    "@wdio/cli": "^6.2.0",
+    "@wdio/cucumber-framework": "^6.2.0",
+    "@wdio/local-runner": "^6.2.0",
+    "@wdio/spec-reporter": "^6.1.23",
+    "@wdio/sync": "^6.2.0",
+    "fs-extra": "^9.0.1",
+    "ts-node": "^8.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.6",
+    "wdio-chromedriver-service": "^6.0.3"
+  },
+  "dependencies": {
+    "@types/cucumber": "^6.0.1",
+    "allure-commandline": "^2.13.0",
+    "chromedriver": "latest",
+    "moment": "^2.27.0"
+  }
+}
