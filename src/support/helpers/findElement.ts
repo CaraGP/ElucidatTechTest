@@ -7,9 +7,9 @@ const findElement = (
 ): WebdriverIO.Element => {
   const selector = getElementMapping(mappingName);
   const element = parentElement.$(selector);
-  element.waitForExist({
+  element.waitForClickable({
     timeoutMsg: `Could not find "${mappingName}" using "${selector}"`,
-    timeout: 60000,
+    timeout: 10000,
   });
 
   return element;

@@ -6,3 +6,7 @@ import { expectEqual } from "../support/helpers/assertions";
 Then(/^I should see the "([^"]*)?"$/, (mappingName: string) => {
   findElement(mappingName);
 });
+
+Then(/^the "([^"]*)?" should be "([^"]*)?"$/, (mappingName: string) => {
+  findElement(mappingName);
+});

@@ -15,7 +15,13 @@ const getUrlMapping = (expectedMapping: string): string => {
   }
 };
 
-const elementMappings = new Map([["Course Title", ".projectTitle"]]);
+const elementMappings = new Map([
+  ["Course Title", ".projectTitle"],
+  ["Question Text", ".question__header__text"],
+  ["Start Button", "#pa_602f99d67dab9_p15766ba6ccd-button__text"],
+  ["Go Button", ".button=Go"],
+  ["Submit button", ".save_button.fake_save_button--disabled"],
+]);
 
 const getElementMapping = (expectedMapping: string): string => {
   if (elementMappings.has(expectedMapping)) {
