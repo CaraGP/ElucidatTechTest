@@ -7,6 +7,11 @@ Then(/^I should see the "([^"]*)?"$/, (mappingName: string) => {
   findElement(mappingName);
 });
 
-Then(/^the "([^"]*)?" should be "([^"]*)?"$/, (mappingName: string) => {
-  findElement(mappingName);
-});
+Then(
+  /^the "([^"]*)?" should include "([^"]*)?"$/,
+  (elementMapping: string, expectedText: string) => {
+    const element = findElement(elementMapping);
+
+    expect(element).toHaveTextContaining(expectedText);
+  }
+);
