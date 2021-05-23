@@ -234,7 +234,6 @@ exports.config = {
    * Function to be executed before a test (in Mocha/Jasmine) starts.
    */
   beforeScenario: function (test, context) {
-    console.log("beforeScenario");
     browser.deleteCookies("learner_session");
     browser.pause(1000);
   },
