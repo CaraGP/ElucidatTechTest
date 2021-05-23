@@ -1,6 +1,5 @@
 import { When } from "cucumber";
 import findElement from "../support/helpers/findElement";
-import findElements from "src/support/helpers/findElements";
 
 When(/^I proceed to the (\d+)(?:st|nd|rd|th) question$/, (section: number) => {
   const startButton = findElement("Start Button");
