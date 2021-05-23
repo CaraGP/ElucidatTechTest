@@ -8,7 +8,7 @@ Using one of the popular test automation frameworks write a script to test the f
 [Automation test link](https://learning.elucidat.com/course/602f99d64d0ac-602f9cb9b350d)
 ```
 
-This project was built using [WebdriverIO 6](https://webdriver.io/docs/gettingstarted.html), using Node.js, Cucumber.js and Typescript.
+This project was built using [WebdriverIO 6](https://v6.webdriver.io/docs/gettingstarted.html), using Node.js, Cucumber.js and Typescript.
 
 # Getting Started
 
@@ -61,8 +61,8 @@ They are currently separated by `given`, `when` and `then`.
 
 ## Adding screenshots on steps
 
-Currently the suite will generate a screenshot if there are any failed steps. However it is possible to simply add screenshots on steps regardless if they fail or pass: [wdio documentation for screenshots.](https://webdriver.io/docs/api/browser/saveScreenshot.html)
+Currently the suite will generate a screenshot if there are any failed steps. However it is possible to simply add screenshots on steps regardless if they fail or pass: [wdio documentation for screenshots.](https://v6.webdriver.io/docs/api/browser/saveScreenshot.html)
 
-You can also take screenshots of particular elements rather than of the browser window: [wdio documentation for element screenshots.](https://webdriver.io/docs/api/element/saveScreenshot.html)
+You can also take screenshots of particular elements rather than of the browser window: [wdio documentation for element screenshots.](https://v6.webdriver.io/docs/api/element/saveScreenshot.html)
 
 Screenshots taken are stored in `./screenshots`.
