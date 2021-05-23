@@ -22,11 +22,12 @@ _Thought i'd mention any thoughts picked up through the creation of this project
 _Not in priority order_
 
 - Add docker compose so that the project runs in a container and users won't have to worry about needing particular versions of anything on their local machines.
-- Update wdio config to implement other browsers so that the tests can run against them, rather than just run against chrome. Could add something like Browserstack.
+- Update wdio config to implement other browsers so that the tests can run against them, rather than just run against chrome. Could add something like BrowserStack.
 - Fully cover all functionality throughout the course.
-- Add fail and edgecases, plus any extras which would be nice to have in order to help with confidence in the suite and expected behaviours.
+- Add fail and edge cases, plus any extras which would be nice to have in order to help with confidence in the suite and expected behaviours.
 - Upgrade to WebdriverIO 7.
-- Fully upgrade all dependances. All are at highest minor version.
+- Fully upgrade all dependencies. All are at highest minor version.
+- Refactor the When step that navigates to certain pages within the course.
 
 # Known Issues
 

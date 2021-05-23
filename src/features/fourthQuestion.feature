@@ -14,11 +14,11 @@ Scenario: Undo button is disabled by default
 Then the "Undo button" is set to "disabled"
 
 Scenario: Selecting the Undo button returns first Answer Option to the card stack
-And I drag and drop the top "Dragable Answer Option"
+And I drag and drop the top "Draggable Answer Option"
 When I select the "Undo button"
 Then the dragged card should return
 
 Scenario: Selecting the active Submit button processes the response and navigates user to the fifth question
-And I drag and drop the top "Dragable Answer Option"
+And I drag and drop the top "Draggable Answer Option"
 When I select the "Enabled Submit button"
 Then I should be on "Part 2"

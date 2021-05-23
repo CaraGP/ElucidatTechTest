@@ -24,7 +24,7 @@ const elementMappings = new Map([
   ["Image Answer Option", "#pa_602f99d685e21_p157047c2abc-imgCard--answer-1"],
   ["Enabled Submit button", ".save_button"],
   ["Text Answer Option", ".textCard.answer"],
-  ["Dragable Answer Option", "#pa_602f99d691558_p17395ca1e67-dropper-1"],
+  ["Draggable Answer Option", "#pa_602f99d691558_p17395ca1e67-dropper-1"],
   ["Undo button", ".e-undo_button"],
   ["Part 2", "#pa_602f99d697407_p1738fd505b7-image"],
 ]);

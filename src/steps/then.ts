@@ -23,6 +23,6 @@ Then(
 );
 
 Then(/^the dragged card should return$/, () => {
-  const element = findElement("Dragable Answer Option");
+  const element = findElement("Draggable Answer Option");
   expect(element).not.toHaveClass("e-dropped");
 });

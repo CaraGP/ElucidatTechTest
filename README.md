@@ -2,11 +2,9 @@
 
 This wdio test suite project should cover the following task:
 
-```sh
-Using one of the popular test automation frameworks write a script to test the following link.
-
-[Automation test link](https://learning.elucidat.com/course/602f99d64d0ac-602f9cb9b350d)
-```
+> Using one of the popular test automation frameworks write a script to test the following link.
+>
+> [Automation test link](https://learning.elucidat.com/course/602f99d64d0ac-602f9cb9b350d)
 
 This project was built using [WebdriverIO 6](https://v6.webdriver.io/docs/gettingstarted.html), using Node.js, Cucumber.js and Typescript.
 
@@ -53,7 +51,7 @@ $ npx wdio wdio.conf.js
 
 ## Adding new steps
 
-The test steps have been written in a fashion that allows them to be versatile and hopefully as reusual as needed. To do this, the variables present in any steps are defined using regular expressions.
+The test steps have been written in a fashion that allows them to be versatile and hopefully as reusable as needed. To do this, the variables present in any steps are defined using regular expressions.
 
 To update or add any new step definitions, you can find them in `./src/steps`.
 
